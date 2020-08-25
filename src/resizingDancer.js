@@ -10,11 +10,15 @@ var resizingDancer = function(top, left, timeBetweenSteps) {
 };
 
 resizingDancer.prototype = Object.create(movingDancer.prototype);
-ResizingDancer.prototype.constructor = movingDancer;
+
+resizingDancer.prototype.constructor = movingDancer;
+
+
 
 resizingDancer.prototype.step = function() {
 
   movingDancer.prototype.step.call(this);
+
 
 
 };
