@@ -3,8 +3,8 @@ var movingDancer = function(top, left, timeBetweenSteps) {
   //this.oldStep = makeDancer.prototype.step;
   //make a function invocation to move
   //this.$node = $('<span class="movingDancer"></span>');
+  this.$node.removeClass('dancer');
   this.$node.addClass('movingDancer');
-
 
 };
 
